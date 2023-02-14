@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="App">
+      <UniqueIdentifier>{9c9072d1-1c83-44da-93eb-29c0898ecc37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib">
+      <UniqueIdentifier>{314f9940-612c-43c7-b9bc-a5342003fd2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Lib\ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Lib\リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="App\ソース ファイル">
+      <UniqueIdentifier>{7c6090fb-805b-4a76-b18f-cb658de66287}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\ヘッダー ファイル">
+      <UniqueIdentifier>{48a42d77-98d8-4b49-b882-5829685ed59a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\リソース ファイル">
+      <UniqueIdentifier>{a82b0544-5869-4e9a-840a-277a773b41fe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Lib\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\Engine\Base\WinApp.cpp">
+      <Filter>Lib\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\Engine\Base\DirectXCommon.cpp">
+      <Filter>Lib\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\Engine\Math\MathUtility.cpp">
+      <Filter>Lib\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\Engine\Base\Input.cpp">
+      <Filter>Lib\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\Engine\Base\TextureManager.cpp">
+      <Filter>Lib\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\Engine\Base\WorldTransform.cpp">
+      <Filter>Lib\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\Engine\Base\CameraTransform.cpp">
+      <Filter>Lib\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>App\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\Engine\Base\Scene.cpp">
+      <Filter>Lib\ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\Engine\Base\Sprite.cpp">
+      <Filter>Lib\ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Include\Engine\Base\WinApp.h">
+      <Filter>Lib\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Engine\Base\DirectXCommon.h">
+      <Filter>Lib\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Engine\Math\MathUtility.h">
+      <Filter>Lib\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Engine\Base\Input.h">
+      <Filter>Lib\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Engine\Base\TextureManager.h">
+      <Filter>Lib\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Engine\Base\WorldTransform.h">
+      <Filter>Lib\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Engine\Base\CameraTransform.h">
+      <Filter>Lib\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Engine\Base\Mesh.h">
+      <Filter>Lib\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>App\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Engine\Base\Scene.h">
+      <Filter>Lib\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Engine\Base\SceneSharedData.h">
+      <Filter>Lib\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Engine\Base\Sprite.h">
+      <Filter>Lib\ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\Shaders\Model.hlsli">
+      <Filter>Lib\リソース ファイル</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\Sprite.hlsli">
+      <Filter>Lib\リソース ファイル</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Resources\Shaders\ModelPS.hlsl">
+      <Filter>Lib\リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Resources\Shaders\ModelVS.hlsl">
+      <Filter>Lib\リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Resources\Shaders\SpritePS.hlsl">
+      <Filter>Lib\リソース ファイル</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Resources\Shaders\SpriteVS.hlsl">
+      <Filter>Lib\リソース ファイル</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
